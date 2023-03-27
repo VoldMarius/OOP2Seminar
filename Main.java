@@ -1,21 +1,30 @@
 import units.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
-    public static void main(String[] args) {
+    public static <objekt> void main(String[] args) {
+
         Sniper sn = new Sniper("Bob");
-        Crossbowman сr = new Crossbowman("Greg");
+        Crossbowman cr = new Crossbowman("Greg");
         Wizard wz = new Wizard("David");
         Priest pr = new Priest("Iov");
         Inhabitant inh = new Inhabitant("Ivan");
         Spearman sp = new Spearman("Gollem");
         Thief tf = new Thief("Igor");
-        System.out.println(sn);
-        System.out.println(сr);
-        System.out.println(wz);
-        System.out.println(pr);
-        System.out.println(inh);
-        System.out.println(sp);
-        System.out.println(tf);
+        List unit = new ArrayList();
+        unit.add(sn);
+        unit.add(cr);
+        unit.add(wz);
+        unit.add(pr);
+        unit.add(inh);
+        unit.add(sp);
+        unit.add(tf);
+        for (Object n :unit) {
+            System.out.print(n+"\n");
+
+        }
 
     }
 }
