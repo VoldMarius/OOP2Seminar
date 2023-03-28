@@ -10,4 +10,13 @@ public class Wizard extends BaseHero {
         accuracy = 70;
 
     }
+    @Override
+    public void step() {
+
+    }
+
+    @Override
+    public String getInfo() {
+        return "Маг";
+    }
 }
