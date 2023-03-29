@@ -1,8 +1,10 @@
 package units;
 
+import interfaces.GameInterface;
+
 import java.util.Arrays;
 
-public abstract class BaseHero {
+public abstract class BaseHero implements GameInterface {
     public String class_name;
     public String name;
 
