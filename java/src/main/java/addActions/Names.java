@@ -1,3 +1,5 @@
+package addActions;
+
 import java.util.Random;
 
 public enum Names {
