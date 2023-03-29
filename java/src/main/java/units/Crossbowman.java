@@ -10,4 +10,13 @@ public class Crossbowman  extends BaseHero {
         accuracy = 50;
 
     }
+    @Override
+    public void step() {
+
+    }
+
+    @Override
+    public String getInfo() {
+        return "Арбалетчик";
+    }
 }
